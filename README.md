@@ -2,7 +2,7 @@
 
 For starting new projects. This template is appropriate for **development** only and *not* **production** or **staging**.
 
-To get started, we generally do something like this (assuming [virtualenvrapper][] and [pip][] are installed):
+To get started, we generally do something like this (assuming [virtualenvwrapper][] and [pip][] are installed):
 
     mkvirtualenv <virtualenv_identifier>
     pip install django==1.4
@@ -19,3 +19,6 @@ When using applications that rely on South, it's best to avoid running migration
 
     ./manage.py syncdb --all
     ./manage.py migrate --fake
+
+[virtualenvwrapper]: http://www.doughellmann.com/docs/virtualenvwrapper/
+[pip]: http://www.pip-installer.org/
