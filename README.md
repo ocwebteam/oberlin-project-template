@@ -7,7 +7,7 @@ To get started, we generally do something like this (assuming [virtualenvwrapper
 ```bash
 mkvirtualenv <virtualenv_identifier>
 pip install django==1.4
-django-admin.py startproject <project_name> template=/path/to/oberlin-project-template/project_template
+django-admin.py startproject <project_name> --template=/path/to/oberlin-project-template/project_template
 pip install -r <project_name>/requirements.txt
 ```
 
