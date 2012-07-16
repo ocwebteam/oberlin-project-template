@@ -56,6 +56,7 @@ STATICFILES_FINDERS = (
 	'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 	'compressor.finders.CompressorFinder',
 )
+ADMIN_MEDIA_PREFIX = STATIC_URL + 'grappelli/'
 
 # Compressor
 
